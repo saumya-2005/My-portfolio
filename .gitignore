@@ -8,6 +8,11 @@ venv/
 __pycache__/
 *.pyc
 
-# Env
+# Environment variables
 .env
 db.sqlite3
+
+# IDEs / OS
+.vscode/
+.idea/
+.DS_Store
