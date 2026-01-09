@@ -91,7 +91,8 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()  # MUST come before accessing any env variables
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+# BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent
 
 # ---------------------------
 # SECURITY SETTINGS
@@ -137,7 +138,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'backend.urls'
+# ROOT_URLCONF = 'backend.urls'
+ROOT_URLCONF = 'urls'
 
 # ---------------------------
 # TEMPLATES
@@ -215,3 +217,5 @@ else:
         "https://yourfrontenddomain.com",
     ]
 
+
+WSGI_APPLICATION = 'wsgi.application'
