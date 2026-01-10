@@ -18,7 +18,11 @@ const Contact = () => {
     e.preventDefault();
     setStatus("Sending...");
     try {
-      const res = await axios.post(`${import.meta.env.VITE_API_URL}/api/contact/submit/`, form);
+      const res = await axios.post(
+  "https://my-portfolio-d1ir.onrender.com/api/contact/submit/",
+  form
+);
+
       setStatus(res.data.message);
       setForm({ name: "", email: "", phone: "", message: "" });
     } catch (err) {

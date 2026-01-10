@@ -309,7 +309,7 @@ const projects = [
     tech: ["Python",  "EfficientNet Model", "Django", "React", "Material UI", "Kaggle"],
     github: "https://github.com/mahera8hub/Radiology",
     demo: null,
-    screenshots: ["/src/images/mri.png", "/src/images/mri2.png", "/src/images/mri3.png","/src/images/mri4.png", "/src/images/mri5.jpeg"],
+    screenshots: ["/mri.png", "/mri2.png", "/mri3.png","/mri4.png", "/mri5.jpeg"],
   },
   {
     title: "Placement Tracker Portal",
@@ -317,7 +317,7 @@ const projects = [
     tech: ["React", "Vite", "Material UI", "Django", "SQLite"],
     github: "https://github.com/ayushanand960/PlaComm",
     demo: null,
-    screenshots: ["/src/images/pla1.jpg", "/src/images/pla2.jpg","/src/images/pla3.jpg","/src/images/pla4.jpg","/src/images/pla5.jpg"],
+    screenshots: ["/pla1.jpg", "/pla2.jpg","/pla3.jpg","/pla4.jpg","/pla5.jpg"],
   },
   {
     title: "Weather App",
@@ -325,7 +325,7 @@ const projects = [
     tech: ["HTML", "Tailwind CSS", "JavaScript", "RAPID API"],
     github: "https://github.com/saumya-2005/weather-app",
     demo: null,
-    screenshots: ["/src/images/w1.jpeg", "/src/images/w2.jpeg", "/src/images/w3.jpeg"],
+    screenshots: ["/w1.jpeg", "/w2.jpeg", "/w3.jpeg"],
   },
   {
     title: "Data Science Club Website",
@@ -333,7 +333,7 @@ const projects = [
     tech: ["React", "Material UI", "Convex", "SQLite"],
     github: "https://github.com/YOUR_USERNAME/data-science-club",
     demo: null,
-    screenshots: ["/src/images/ds.png", "/src/images/ds2.png"],
+    screenshots: ["/ds.png", "/ds2.png"],
   },
   {
     title: "My Personal Portfolio",
@@ -341,7 +341,7 @@ const projects = [
     tech: ["React", "Material UI", "Framer Motion", "Django"],
     github: "https://github.com/saumya-2005/my-personal-portfolio",
     demo: null,
-    screenshots: ["/src/images/p1.jpeg", "/src/images/p2.jpeg", "/src/images/p3.jpeg"],
+    screenshots: ["/p1.jpeg", "/p2.jpeg", "/p3.jpeg"],
   },
   {
     title: "X.Com Clone",
@@ -349,7 +349,7 @@ const projects = [
     tech: ["HTML", "Tailwind CSS", "Vercel"],
     github: "https://github.com/saumya-2005/X.com_clone",
     demo: null,
-    screenshots: ["/src/images/X.jpeg"],
+    screenshots: ["/X.jpeg"],
   },
 ];
 

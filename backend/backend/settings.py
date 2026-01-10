@@ -103,8 +103,6 @@ DEBUG = os.environ.get("DEBUG", "True") == "True"  # Use False in production!
 
 ALLOWED_HOSTS = [
     "my-portfolio-d1ir.onrender.com",
-    "localhost",
-    "127.0.0.1",
 ]
 
 
