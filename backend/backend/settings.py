@@ -211,8 +211,8 @@ if DEBUG:
     CORS_ALLOW_ALL_ORIGINS = True
 else:
     # Production: whitelist your frontend domain
-    CORS_ALLOWED_ORIGINS = [
-        "https://yourfrontenddomain.com",
-    ]
-
+  CORS_ALLOWED_ORIGINS = [
+    "https://my-portfolio-seven-beta-45.vercel.app",
+]
+  
 WSGI_APPLICATION = 'backend.wsgi.application'
