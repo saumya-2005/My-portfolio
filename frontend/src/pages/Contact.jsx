@@ -14,14 +14,14 @@ const Contact = () => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
+const API = import.meta.env.VITE_API_URL;
+
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus("Sending...");
     try {
-      const res = await axios.post(
-  "https://my-portfolio-d1ir.onrender.com/api/contact/submit/",
-  form
-);
+      const res = await axios.post(`${API}/api/contact/submit/`, form);
 
       setStatus(res.data.message);
       setForm({ name: "", email: "", phone: "", message: "" });

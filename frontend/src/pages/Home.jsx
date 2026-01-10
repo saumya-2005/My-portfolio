@@ -183,8 +183,8 @@ import { Box, Container, Typography, Button, Avatar, Stack } from "@mui/material
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
-import profileImg from "../images/nikki.jpg"; 
-import resumePDF from "../images/Resume.pdf"; 
+// import profileImg from "/nikki.jpg"; 
+// import resumePDF from "/Resume.pdf"; 
 
 export default function Home() {
   const navigate = useNavigate();
@@ -237,7 +237,7 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.2 }}
             >
               <Avatar
-                src={profileImg}
+                src="/nikki.jpg"
                 alt="Saumya Kushwaha"
                 variant="circle"
                 sx={{
@@ -327,7 +327,7 @@ export default function Home() {
               >
                 <Button
                   variant="outlined"
-                  href={resumePDF}
+                  href="/Resume.pdf"
                   target="_blank"
                   sx={{
                     px: { xs: 3, sm: 4 },
